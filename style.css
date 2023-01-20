@@ -6,7 +6,7 @@
 
 body{
     background-color: #09090a;
-    height: 100vh;
+    
 }
 
 #main{
@@ -21,7 +21,7 @@ body{
     padding: 48px;
     position: fixed;
     width: 100%;
-
+    max-width: 100vh;
     background-color: #09090a;
 
 }
@@ -42,8 +42,6 @@ body{
 #main2{
     display: flex;
     /*margin-top: 70px;*/
-    gap: 5px;
-    width: 100vh;
 }
 
 form{
