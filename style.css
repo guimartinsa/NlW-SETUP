@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;}
+
+body{
+    background-color: #09090a;
+    height: 100vh;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#top-view{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 48px;
+    position: fixed;
+    width: 100%;
+    max-width: 100vh;
+    background-color: #09090a;
+
+}
+
+#new-b{
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: #8B5CF6 solid 1px;  
+    background-color: transparent;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#main2{
+    display: flex;
+    /*margin-top: 70px;*/
+    gap: 5px;
+    width: 100vh;
+}
+
+form{
+    display: flex;
+    padding: 182px 48px 48px;
+    width: fit-content;
+}
+
+.habits{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 24px;
+}
+
+.habit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 64px;
+    height: 64px;
+    gap: 48px;
+    font-size: 40px;
+}
+
+.days{
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;    
+    color: #A1A1AA;
+}
+
+.day{
+    display:flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day div{
+    margin-bottom: 8px;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+}
+
+input{
+    appearance: none;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #27272a;
+    border-radius: 8px;
+}
+
+input:checked{
+    border: 2px solid #a78bfa;
+    background: #8b5cf6;
+}
