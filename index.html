@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <title>Habits</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,12 +11,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        <div id="top-view">
+        <header id="top-view">
             <img src="./acets/barra.svg" alt="">
-            <button id="new-b" onclick="newhabits()"> <img src="./acets/plus.svg" alt="">Registrar meu dia</button>
-        </div>
-        <div id="main2">
+            <button id="new-b" onclick="newhabits()"> <img src="./acets/plus.svg" alt=""><div>Registrar meu dia</div></button>
+        </header>
             <form id="form-habits">
                 <div class="habits">
                     <div class="habit" data-name="run">🏃‍♂️</div>
@@ -33,8 +31,6 @@
                 </div>
                 <div class="days"></div>
             </form> 
-        </div>
-    </div>
     <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="script.js"></script>
 </body>

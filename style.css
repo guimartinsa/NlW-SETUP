@@ -6,22 +6,18 @@
 
 body{
     background-color: #09090a;
+    height: 100vh;
     
 }
 
-#main{
-    display: flex;
-    justify-content: center;
-}
 
-#top-view{
+header{
     display: flex;
     align-items: center;
     justify-content:space-between;
     padding: 48px;
     position: fixed;
     width: 100%;
-    max-width: 100vh;
     background-color: #09090a;
 
 }
@@ -37,12 +33,10 @@ body{
     gap: 12px;
     font-size: 16px;
     font-weight: 600;
+    line-height: 125%;
 }
 
-#main2{
-    display: flex;
-    /*margin-top: 70px;*/
-}
+
 
 form{
     display: flex;
@@ -64,7 +58,6 @@ form{
 
     width: 64px;
     height: 64px;
-    gap: 48px;
     font-size: 40px;
 }
 
@@ -100,4 +93,10 @@ input{
 input:checked{
     border: 2px solid #a78bfa;
     background: #8b5cf6;
+}
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
 }
